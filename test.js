@@ -1,5 +1,4 @@
 //1
-/*
 let name = prompt("jake je tvoje jméno?");
 console.log("ahoj " + name);
 
@@ -112,7 +111,7 @@ function printBookTitles(bookList) {
 }
 
 printBookTitles(books);
-*/
+
 //7
 let currentInput = '';
 
