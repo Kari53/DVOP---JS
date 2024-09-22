@@ -1,0 +1,36 @@
+.calculator {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.display {
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.button {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+.button:active {
+    background-color: #ddd;
+}
+.button.operator {
+    background-color: #f0ad4e;
+    color: white;
+}
+.button.equals {
+    background-color: #5cb85c;
+    color: white;
+}
+.button.clear {
+    background-color: #d9534f;
+}
